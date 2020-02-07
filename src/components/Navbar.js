@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 import logo from '../logo.svg';
-import ButtonContainer from './Button';
+import {ButtonContainer} from './Button';
 import styled from 'styled-components';
 export default class Navbar extends Component {
     render() {
@@ -22,7 +22,7 @@ https://www.iconfinder.com/Makoto_msk */}
     <Link to="/cart" className="ml-auto">
         <ButtonContainer>
             <span className="mr-2">
-            <i class="fa fa-cart-plus" aria-hidden="true"/>
+            <i className="fa fa-cart-plus" aria-hidden="true"/>
             </span>my cart</ButtonContainer >
     </Link>
             </NavWrapper>
